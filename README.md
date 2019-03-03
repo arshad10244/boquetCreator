@@ -74,7 +74,7 @@ cat path/to/your/file.txt | docker run -i --rm -v $(pwd):/app -w /app bloomon_ap
 
 We are using Interfaces to handle dependency Injection. Container can be used if the application is extended further.
 
-**interfaces** contains all interfaces
+**/interfaces** contains all interfaces
 
 **Flowers.php** Interface used by Flowers model and injected in Bouquets model.
 
