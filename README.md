@@ -1,7 +1,7 @@
 # Bouquet Creator
 
 **Bouquet Creator** is a PHP CLI based script which creates bouquet by utilizing bouquet specs and list of flowers. If bouquet has extra space left, it randomly adds random quantities of available bouquets.
-The script uses OOP Structure and is written in core php. It uses composer for auto-loading classes with namespaces via psr-4. The details of files are below
+The script uses OOP Structure and is written in core php. It uses composer for auto-loading classes with namespaces via psr-4. The details of files are below. The script uses loops instead of array_map since array_map appears slower than loops on bigger datasets.
 
 ## Requirements
 PHP 5.6+ with CLI support and it must be present in your PATH variable
